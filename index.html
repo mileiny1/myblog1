@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+   <img src ="images/photo portfolio.jpg" alt="myphoto" width="250" height="150">
+		 
+		 
+    <h1>Mileiny Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+    
+      
+    </ul>
+  </header>
+  <article>
+    <h2>Project 1</h2>
+    <p>This software is to help users receive immediate feedback on their academic performance based on numerical grades. It improves the experience by validating inputs, providing constructive feedback, and allowing multiple inputs without restarting the program.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Project 2 </h2>
+    <p>The Tip Calculator is a practical application designed to make splitting bills and calculating tips easy and efficient. It was created using Python.</p>
+   
+  </article>
+  <article>
+    
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
+
+</html>
